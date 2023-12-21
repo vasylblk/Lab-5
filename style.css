@@ -1,0 +1,97 @@
+
+    header {
+        text-align: center;
+        width: 100%;
+    }
+
+    .button {
+        font-size: 20px;
+        display: inline-block;
+        background-color: rgb(100, 237, 191);
+        padding: 20px;
+        width: 200px;
+        color: black;
+        text-align: center;
+    }
+
+    .form-popup {
+        display: none;
+        position: fixed;
+        width: auto;
+        bottom: 0;
+        z-index: 9;
+        max-width: 420px;
+    }
+
+    .registrForm {
+        width: 380px;
+        padding: 10px;
+        margin-bottom: 150px;
+        margin-left: 140%;
+        background-color: white;
+    }
+
+    .registrForm input[type=text] {
+        width: 100%;
+        padding: 15px;
+        margin: 5px 0 22px 0;
+        border: none;
+        background: #f1f1f1;
+    }
+
+    .registrForm input[type=text]:focus {
+        background-color: #ddd;
+        outline: none;
+    }
+
+    .registrForm .btn {
+        color: rgb(0, 0, 0);
+        padding: 16px 20px;
+        border: none;
+        cursor: pointer;
+        width: 100%;
+        margin-bottom: 10px;
+        
+    }
+
+    .block_question {
+        display: none;
+    }
+
+    .item1 {
+        grid-area: item1;
+    }
+
+    .item2 {
+        grid-area: item2;
+    }
+
+    .item3 {
+        grid-area: item3;
+    }
+
+    .item4 {
+        grid-area: column1;
+    }
+
+    .item5 {
+        grid-area: column2;
+    }
+
+    .item6 {
+        grid-area: column3;
+    }
+
+    .block_4 {
+        display: grid;
+        grid-template-areas:
+    
+    'column1 column2 column3'
+    'item1 item2 item3';
+        gap: 10px;
+        padding: 10px;
+        line-height: 30px;
+    }
+
+
+
